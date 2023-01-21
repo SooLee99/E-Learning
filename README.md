@@ -20,7 +20,7 @@ ___
 -  회원 관리, 시간표 구현  
 ___
 # 3. 협업 내용  
-- 이건 : 관리자 프레임, Back-end
+- 이건 : 관리자
 - 이수 : 로그인
 - 이인범 : 메인
 - 신창호 : 프로필
@@ -28,6 +28,8 @@ ___
 ___
 # 4. 구현내용  
 ## (1) Login Frame  
+![image](https://user-images.githubusercontent.com/97524700/213842497-58708f7f-f8f7-4294-8b3a-e6bd339a13cb.png)
+
 1. 로그인 시 아이디, 비밀번호 오류 제한 기능 구현
 - 아이디, 비밀번호 미입력 시 dialog message
 - 잘못된 아이디 비밀번호 입력 시 dialog message  
@@ -36,6 +38,8 @@ ___
 3. 아이디 저장 기능 구현
 
 ## (2) SignUp Panel  
+![image](https://user-images.githubusercontent.com/97524700/213842526-adfbba90-9813-4a76-818c-395d6eb8ae8f.png)
+
 1. 아이디 중복확인, 학번확인 후 회원가입 가능 (기본키 제한)  
 2. 아이디, 비밀번호 길이 및 사용되는 특수문자 제한 기능  
 3. 비밀번호 일치여부 확인 기능  
@@ -49,6 +53,8 @@ ___
 7. 회원가입 시 비밀번호 암호화 기능 구현  
 
 ## (3) Find ID / PW Panel  
+![image](https://user-images.githubusercontent.com/97524700/213842533-e46e39a0-5346-43f1-8c5b-ca183aceab77.png)
+
 1. 이름, 학번, 휴대폰번호, 전공, 직책을 DB에 있는 정보와 비교
 - 정보 미 입력 시 dialog message
 - 잘못된 정보 입력 시 dialog message  
